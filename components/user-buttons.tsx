@@ -13,7 +13,7 @@ import React from "react";
 
 const UserButtons = () => {
   return (
-    <div className="space-x-10 flex items-center text-gray-400">
+    <div className="space-x-10 md:flex items-center text-gray-400 hidden">
       <div className="flex text-gray-400 gap-2 place-items-center">
         <LayoutGrid size={17} />
         <div className="border-r h-4 border-gray-700" />

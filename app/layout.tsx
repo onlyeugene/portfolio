@@ -36,7 +36,7 @@ export default function RootLayout({
       <main className="w-full bg-black">
         {/* <SidebarTrigger /> */}
         <Header />
-        <div className="pt-20 p-4">
+        <div className="pt-20 p-4 text-white">
         {children}
         </div>
       </main>

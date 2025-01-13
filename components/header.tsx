@@ -5,7 +5,7 @@ import UserRoutes from "./user-routes";
 
 const Header = () => {
   return (
-    <div className="border-b py-2 px-10 pr-48 bg-[#1c1c1c] flex fixed min-w-full gap-5 justify-between">
+    <div className="border-b border-gray-800 py-2 px-10 pr-48 bg-[#1c1c1c] flex fixed min-w-full gap-5 justify-between">
       <div>
       <UserRoutes />
       </div>
